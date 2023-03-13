@@ -4,8 +4,8 @@ def oblicz(wyrazenie):
   operators = ['/','*','+','-']
   for symbol in symbole:
     if symbol in operators:
-      a = int (stos.pop())
-      b = int (stos.pop())
+      b = int (stos.pop()) #b jest na szczycie stosu
+      a = int (stos.pop()) #a jest na stosie tuż pod b
       if symbol == '+':
         res = a + b
       elif symbol == '-':
