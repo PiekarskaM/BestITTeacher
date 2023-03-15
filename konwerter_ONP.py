@@ -25,7 +25,6 @@ def zamien(input):
         if stos[-1]=='(':
             stos.pop()
     else:
-        print('e:',e)
         output.append(e)
   while len(stos)>0:
     output.append(stos[-1])
