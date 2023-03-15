@@ -19,4 +19,4 @@ def oblicz(wyrazenie):
       stos.append(int(symbol))
   return stos.pop()
 
-print(oblicz("23 4 5 2 * 3 6 / + * +"))
+print(oblicz("23 4 5 2 * 6 3 / + * +"))
